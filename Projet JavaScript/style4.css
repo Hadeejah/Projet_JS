@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contain {
+    border: 14px solid purple;
+    width: 40%;
+    height: 40rem;
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.entete1 {
+    width: 92%;
+    height: 16%;
+    background-color: purple;
+
+}
+
+.partie_choix {
+    line-height: 3;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    width: 92%;
+}
+
+.password,.maj,.min,.nbres,.carac {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.generer {
+    width: 92%;
+    height: 15%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blueviolet;
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.survol {
+    color: white;
+    background-color: blue;
+    transition: 0.8s ease-in-out;
+}
+
+.longueur {
+    width: 50px;
+}
+
+.btn_copy {
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    right: 1.5em;
+    top: 1.5em;
+    visibility: hidden; 
+    cursor: pointer;
+}

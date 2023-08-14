@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styleplanning.css">
+    <title>Projet Planning</title>
+</head>
+
+<body>
+    <div class="contain">
+        <div class="part1">
+            <div class="input-1"><input type="text" class="search-1"></div>
+            <div class="frames">
+                <div class="frame1">
+                    <div class="frame-1st cadre">
+                        <div class="i-six"><i class="fa-solid fa-person-chalkboard color1"></i>
+                            <h1>6</h1>
+                        </div>
+                        <h5 class="type-selection">Enseign.<span class="plus-1">+</span></h5>
+                    </div>
+                    <div class="frame-2nd cadre">
+                        <div class="i-six"><i class="fa fa-house color2"></i>
+                            <h1>6</h1>
+                        </div>
+                        <h5 class="type-selection">Salles<span>+</span></h5>
+                    </div>
+
+                </div>
+                <div class="frame2">
+                    <div class="frame-3rd cadre">
+                        <div class="i-six"><i class="fa fa-users color3"></i>
+                            <h1>6</h1>
+                        </div>
+                        <h5 class="type-selection">Classes<span>+</span></h5>
+                    </div>
+                    <div class="frame-4th cadre">
+                        <div class="i-six"><i class="fa-solid fa-trash-can color4"></i>
+                            <h1>6</h1>
+                        </div>
+                        <h5 class="type-selection">Modules<span>+</span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="select"><select name="" id="se"></select></div>
+        </div>
+        <div class="part2">
+            <div class="entete">
+                <div class="entete-1">
+                    <h4 class="planning_title">Planning:L2 CDSD</h4>
+                    <div class="btn">
+                        <div class="rond-noir"></div>
+                    </div>
+                </div>
+                <h5 class="cours"> 4 cours</h5>
+            </div>
+            <div class="hours">
+                <p>8H</p>
+                <p>9H</p>
+                <p>10H</p>
+                <p>11H</p>
+                <p>12H</p>
+                <p>13H</p>
+                <p>14H</p>
+                <p>15H</p>
+                <p>16H</p>
+                <p>17H</p>
+            </div>
+            <div class="box-days-">
+                <div class="days">
+                    <div class="day"  >
+                        <p>LUNDI</p><span class="plus" fane="1" id="d_1">+</span>
+                    </div>
+                    <div class="day">
+                        <p>MARDI</p> <span class="plus" fane="2" id="d_2">+</span>
+                    </div>
+                    <div class="day">
+                        <p>MERCREDI</p><span class="plus" fane="3" id="d_3">+</span>
+                    </div>
+                    <div class="day">
+                        <p>JEUDI</p><span class="plus" fane="4" id="d_4">+</span>
+                    </div>
+                    <div class="day">
+                        <p>VENDREDI</p><span class="plus" fane="5" id="d_5">+</span>
+                    </div>
+                    <div class="day">
+                        <p>SAMEDI</p><span class="plus" fane="6" id="d_6">+</span>
+                    </div>
+                </div>
+                <div class="plans">
+                    <div class="plan1" id="pl_1"></div>
+                    <div class="plan1" id="pl_2"></div>
+                    <div class="plan1" id="pl_3"></div>
+                    <div class="plan1" id="pl_4"></div>
+                    <div class="plan1" id="pl_5"></div>
+                    <div class="plan1" id="pl_6"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="boite-modal ">
+       <span id="key" style="display: none;"></span>
+        <div class="content_modal">
+            <div class="modal-header ">
+                <h2 class="title" style="color: aliceblue;">Modal title</h2>
+            </div>
+            <div class="modal-body ">
+                <div class="div1">
+                    <p>Modules</p>
+                    <p>Enseignants</p>
+                    <p>Salles</p>
+                    <p>Heures de début</p>
+                    <p>Heure de fin</p>
+                </div>
+                <div class="select1">
+                    <select class="sel1 input-group" ></select>
+                    <select class="sel2 input-group" ></select>
+                    <select class="sel3 input-group" ></select>
+                    <select class="sel4 input-group" ></select>
+                    <select class="sel5 input-group" ></select>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="aj">Ajouter</button>
+                <button class="an">Annuler</button>
+            </div>
+        </div> 
+   </div> 
+    <script src="planningscript.js"></script>
+</body>
+
+</html>

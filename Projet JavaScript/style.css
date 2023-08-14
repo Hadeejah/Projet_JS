@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contain
+{
+    width: 100%;
+    background-color: aqua;
+}
+.bouton
+{
+    width: 100%;
+    height: 5vh;
+    background-color: blueviolet;
+    position: relative;
+   
+}
+.add
+{
+  position: absolute;
+  right: 2%;
+  font-size: 1.5em;
+  padding: 0.3%;
+  border-radius: 9%;
+}
+.bloc-note
+{
+    background-color: rgb(70, 226, 43);
+}
+.texte
+{
+    width: 15%;
+}
+.icones
+{
+    background-color: brown;
+}

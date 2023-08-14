@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(119, 113, 113);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.contain {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem auto;
+    background-color: rgba(48, 51, 51, 0.694);
+}
+.part1 {
+
+    width: 25%;
+    height: 85vh;
+
+
+}
+input {
+    width: 80%;
+    height: 2em;
+    border-radius: 10px;
+    font-size: 1.3em;
+    background-color: rgb(105, 107, 109);
+    margin: 1em;
+}
+#se {
+    width: 80%;
+    height: 3vh;
+    margin: 3em 1em;
+
+}
+.frames {
+    height: 31%;
+}
+.frame1,
+.frame2 {
+
+    width: 100%;
+    height: 7.5em;
+    display: flex;
+    justify-content: space-around;
+}
+.frame-1st,
+.frame-2nd {
+    border: 2px solid;
+    width: 46%;
+    border-radius: 9%;
+    height: 7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(189, 182, 182, 0.724);
+    cursor: pointer;
+}
+.frame-3rd,
+.frame-4th {
+    border: 2px solid;
+    width: 46%;
+    height: 7em;
+    border-radius: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(189, 182, 182, 0.724);
+    cursor: pointer;
+}
+i {
+    width: 22%;
+    height: 5vh;
+    border-radius: 60%;
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .6rem;
+}
+.i-six {
+    display: flex;
+    justify-content: space-around;
+
+}
+.color1 {
+
+    background-color: rgb(29, 105, 182);
+}
+.color2 {
+
+    background-color: rgb(24, 101, 24);
+}
+.color3 {
+
+    background-color: rgb(244, 166, 19);
+}
+.color4 {
+
+    background-color: red;
+
+}
+.type-selection {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+}
+.frame-1st.active {
+
+    background-color: rgb(29, 105, 182);
+}
+.frame-2nd.active {
+
+    background-color: rgb(24, 101, 24);
+}
+
+.frame-3rd.active {
+
+    background-color: rgb(244, 166, 19);
+}
+
+.frame-4th.active {
+
+    background-color: red;
+}
+
+.part2 {
+    border: 2px solid;
+    width: 75%;
+    height: 85vh;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.entete {
+
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+}
+
+.entete-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.planning_title {
+
+    font-size: 2em;
+    padding-left: 2rem;
+
+}
+
+.cours {
+
+    font-size: 2rem;
+    padding-left: 1.5rem;
+
+}
+
+.btn {
+    border: 2px solid;
+    height: 55%;
+    width: 5%;
+    border-radius: 50px;
+    margin-right: 2em;
+    margin-top: 3rem;
+    background-color: white;
+}
+
+.rond-noir {
+    border: 1px solid;
+    width: 55%;
+    height: 100%;
+    border-radius: 60px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.hours {
+    width: 100%;
+    height: 4%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding-left: 10em;
+    background-color: rgb(80, 84, 84);
+    border-radius: 30px;
+    color: white;
+
+}
+
+.box-days- {
+    display: flex;
+}
+
+.days {
+    width: 15%;
+    height: 100%;
+}
+
+.day {
+    color: white;
+    border: 1.5px solid gray;
+    height: 11.5vh;
+    border-radius: 20px;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.plans {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.plan1 {
+    height: 11vh;
+    background-color: rgb(68, 84, 93);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+
+.plus {
+    color: lightgreen;
+    font-size: 2rem;
+    cursor: pointer;
+}
+ .boite-modal {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #141414a0;
+    width: 100%;
+    height: 100vh;
+display: none;
+  
+} 
+.content_modal{
+    position: relative; 
+   width: 50%;
+   height: 80vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   display: none; 
+
+}
+ .modal-header {
+
+    width: 100%;
+    border: 1px solid;
+    height: 10%;
+    background-color: #a12929;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+    width: 100%;
+    height:60% ;
+    background-color: rgb(108, 113, 118);
+    
+} 
+.div1{
+    font-size:1.7em;
+    color: aliceblue;
+}
+.select1{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    gap: 1rem;
+}
+.input-group{
+    font-size: 1rem;
+}
+ .modal-footer{
+    width: 100%;
+    border: 1px solid;
+    height: 10%;
+    background-color: #a12929;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 7%;
+    height: 50%;
+ cursor: pointer;
+}  
+.plann{
+    border: 1px solid;
+    text-align: center;
+   height: 11vh;
+   border-radius: 10px;
+   background-color: palevioletred;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+.ico{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+ 

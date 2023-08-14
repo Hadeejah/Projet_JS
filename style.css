@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contain
+{
+    background-color: aqua;
+    width: 80%;
+    height: 70vh;
+    margin: 3% auto;
+    position: relative;
+
+}
+.btn
+{
+    background-color: rgba(33, 165, 7, 0.798);
+    color: white;
+    font-size: 1em;
+    padding: 1%;
+    border-radius: 8%;
+    margin: 1%;
+    position: absolute;
+    left: 90%;
+    cursor: pointer;
+}
+.icones
+{
+    width: 29.7%;
+    height: 6%;
+    background-color: rgba(33, 165, 7, 0.798);
+    left: 2.5%;
+    top: 15%;
+    position: absolute;
+    display: flex;
+   
+}
+.bloc-icones
+{
+    position: relative;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 83%;
+}
+.ic
+{
+    color: rgb(255, 245, 245);
+    background-color: rgba(33, 165, 7, 0.798);
+    font-size: 2em;   
+    cursor: pointer;
+}
+button
+{
+    border: 0px;
+}
+.text
+{
+    position: absolute;
+    top: 21%;
+    left: 2.5%;
+    border: 0px;
+}
+

@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contain
+{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:3em  auto;
+   
+}
+.bloc_bouton
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(141, 139, 139, 0.548);
+    padding: 5%;
+    gap: 1%;
+
+} 
+.btn1
+{
+    font-size: 2em;
+    color:white;
+    border-radius: 10px;
+    height: 8vh;
+    width:30%;
+
+}
+.green
+{
+    background-color: green;
+}
+.red
+{
+    background-color: red;
+}
+.orange
+{
+    background-color: orange;
+}
+.blue
+{
+    background-color: rgb(0, 212, 212);
+}

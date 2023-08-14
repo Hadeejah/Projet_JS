@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Poppins:wght@200;300&display=swap" rel="stylesheet"> 
+    <script src="script.js" defer></script>
+    <title>Recherche Dynamique</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="img/utilisateur.png" alt="utilisateur">
+            <h1 class="title">Users</h1>
+        </div>
+
+        <nav class="sidebar-nav">
+            <ul class="sidebar-nav-list">
+                <li class="nav-item">
+                    <img src="img/dashboard.svg" alt="">
+                    Dashboard
+                </li>
+                <li class="nav-item">
+                    <img src="img/chat_bubble.svg" alt="">
+                    Messenger
+                </li>
+                <li class="nav-item active">
+                    <img src="img/database.svg" alt="">
+                    Database
+                </li>
+                <li class="nav-item">
+                    <img src="img/calendar.svg" alt="">
+                    Calendar
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <main class="content">
+        <div class="search-bar">
+            <img src="img/search.svg" alt="">
+            <input type="text" name="search" id="search" placeholder="Look for an user">
+        </div>
+
+        <h2 class="title">Database Results</h2>
+
+        <div class="header">
+            <h4>Name</h4>
+            <h4>Email</h4>
+            <h4>Phone</h4>
+        </div>
+
+        <div class="table-result">
+
+            <div class="loader-container">
+                <div class="loader"></div>
+            </div>
+
+            <div class="empty-result">
+                Aucun résultat
+            </div>
+
+            <!-- <div class="table-item">
+                <span class="username">
+                    <img src="0.jpg" alt="Usher Blow">
+                    Usher Blow
+                </span>
+                <span class="email">usherblow21@gmail.com</span>
+                <span class="phone">78 389 98 60</span>
+            </div> -->
+        </div>
+    </main>
+</body>
+</html>
